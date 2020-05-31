@@ -1,0 +1,6 @@
+[Unit]
+Description=reddit
+Documentation=https://github.com/express42/reddit
+[Service]
+Type=simple
+ExecStart=/srv/reddit/puma -d
